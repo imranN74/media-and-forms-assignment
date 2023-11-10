@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <form action="" method="">
+      <label for="firstName">First Name:</label>
+      <input
+        type="text"
+        name="firstName"
+        id="firstName"
+        placeholder="john"
+        minlength="3"
+        maxlength="20"
+      />
+      <br />
+      <label for="lastName">Last Name:</label>
+      <input
+        type="text"
+        name="lastName"
+        id="lastName"
+        placeholder="doe"
+        minlength="3"
+        maxlength="20"
+        required
+      />
+      <br />
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="john@example.com"
+        minlength="3"
+        required
+      />
+      <br />
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="*********"
+        minlength="8"
+        required
+      />
+      <br />
+      <label for="cnfPassword">Confirm Password:</label>
+      <input
+        type="password"
+        name="cnfPassword"
+        id="cnfPassword"
+        placeholder="*********"
+        required
+      />
+      <br />
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="30"
+        min="1"
+        max="150"
+        required
+      />
+      <br />
+      <label for="">Gender:</label>
+      <input type="radio" name="gender" id="male" checked />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+      <input type="radio" name="gender" id="other" />
+      <label for="other">Other</label>
+      <br />
+      <label for="terms">Terms:</label>
+      <input type="checkbox" name="terms" id="terms" />I agree to the terms and
+      conditions
+      <br />
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
